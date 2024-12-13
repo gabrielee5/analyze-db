@@ -15,3 +15,7 @@ python3 manage_db.py --db database_name.db --list-tables
 python3 manage_db.py --db database_name.db --table your_table --list-columns
 
 python3 manage_db.py --db database_name.db --table your_table --column column_to_delete
+
+## Convert
+
+Converts the selected db in a csv and xlsx file, sorting the data chronologically.

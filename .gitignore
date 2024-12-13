@@ -1,3 +1,5 @@
 venv
 db
 .DS_Store
+data_csv
+data_xlsx
