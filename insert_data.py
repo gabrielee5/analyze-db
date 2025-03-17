@@ -70,14 +70,14 @@ def view_and_modify_row(db_path, table_name, date, account_name, updates):
 
 if __name__ == "__main__":
 
-    db_path = "new-database.db"
+    db_path = "db/database2.db"
     table_name = "daily_reports"
-    date = "2024-12-13"
-    account_name = "gabriele"
+    date = "2025-01-02"
+    account_name = "manuelp"
 
     # Updates to make
     updates = {
-        'deposit': 1000.0,
+        'equity': 1210.0,
         # add other columns you want to update
     }
 

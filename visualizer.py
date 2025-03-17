@@ -5,8 +5,10 @@ from datetime import datetime
 import os
 from tabulate import tabulate
 
+# freqtrade database
+
 # Database filename
-DB_FILENAME = "db/gabriele.sqlite"
+DB_FILENAME = "db/oliviero.sqlite"
 
 def load_trades_data():
     current_dir = os.path.dirname(os.path.abspath(__file__))

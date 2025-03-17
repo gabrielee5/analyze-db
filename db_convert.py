@@ -86,7 +86,7 @@ def convert_csv_to_excel(from_path):
     return xlsx_path
 
 if __name__ == "__main__":
-    from_path = 'db/database-copy.db'
+    from_path = 'db/database2.db'
     csv_path = convert_sqlite_to_csv(from_path)
     # xlsx_path = convert_csv_to_excel(csv_path)
     print(f"Process completed.")

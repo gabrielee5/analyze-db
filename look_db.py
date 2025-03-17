@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 # Specify the database filename here
-DB_FILENAME = "db/gabriele.sqlite"
+DB_FILENAME = "db/giacomo3.sqlite"
 
 def analyze_database():
     # Get the current script's directory
